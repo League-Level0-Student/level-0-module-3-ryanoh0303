@@ -43,8 +43,9 @@ public class ObediantRobot {
 	}
 	public void drawCircle(Robot rob) {
 		//I am stuck on this part. I do not know how to draw a circle. 
-		for(int i=0; i<3; i--) {
-			rob.turn(360);
+		for(int i=0; i<36; i++) {
+			rob.turn(10);
+			rob.move(1);
 		}
 	}
 
